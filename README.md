@@ -1,2 +1,18 @@
 # c-2
 program to perform  swapping operations
+nclude <stdio.h>
+
+int main() {
+    int a, b, temp;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+
+    // Swapping
+    temp = a;
+    a = b;
+    b = temp;
+
+    printf("After swapping: a = %d, b = %d\n", a, b);
+    return 0;
+}
